@@ -1,4 +1,4 @@
-//*************************************General Math*************************************//
+//****************************General Math(PG. 173, Pr.1, CH.3)*******************************//
 // Write a C++ program to calculate and display the value of the slope of the line connecting two points with the coordinates (3,7) and (8,12). Use the fact that the slope between two points with the coordinates (x1,y1) and (x2,y2) is (y2 - y1) / (x2 - x1).//
 
 #include <iostream>
@@ -9,14 +9,14 @@ using namespace std;
 int main() {
 
   cout << "The formula for calulating slope is \n     (y2 - y1)/(x2 - x1)" << endl;
-  cout << "Note:\n The coordinates (3,7), (8,12) are formatted (x1,y1), (x2,y2) or (x2,y2), (x1,y1)" << endl;
+  cout << "Note:\n The coordinates (2,10), (12,6) are formatted (x1,y1), (x2,y2) or (x2,y2), (x1,y1)" << endl;
 
   //establish variables
- int x, y, g, f;
-  x = 3;
-  g = 8;
-  y = 7;
-  f = 12;
+ double x, y, g, f;
+  x = 2;
+  g = 12;
+  y = 10;
+  f = 6;
 
   //calculate slope
   cout << "We will now calculate slope between the two points using the formula: (y2-y1)/(x2-x1)" << endl;
