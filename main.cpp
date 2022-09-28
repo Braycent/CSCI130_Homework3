@@ -13,19 +13,14 @@ int main() {
 
   //establish variables
  int x, y, g, f;
-  
-  cout << "\nInput x1" << endl;
-  cin >> x;
-  cout << "\nInput y1" << endl;
-  cin >> y;
-  cout << "\nInput x2" << endl;
-  cin >> g;
-  cout << "\nInput y2" << endl;
-  cin >> f;
+  x = 3;
+  g = 8;
+  y = 7;
+  f = 12;
 
   //calculate slope
-  cout << "We will now calculate slope using the formula: (y2-y1)/(x2-x1)" << endl;
-  cout << "= " << (f - y)/(g-x);
+  cout << "We will now calculate slope between the two points using the formula: (y2-y1)/(x2-x1)" << endl;
+  cout << " the value of the slope equals " << (f - y)/(g-x);
 
   
   
