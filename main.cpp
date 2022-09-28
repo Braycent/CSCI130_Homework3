@@ -22,7 +22,7 @@ int main() {
   cout << "We will now calculate slope between the two points using the formula: (y2-y1)/(x2-x1)" << endl;
   cout << " the value of the slope equals " << (f - y)/(g-x);
 
-  
+  // Part b) I know the value output from the code is true to the actual value of slope because using the formula (y2-y1)/(x2-x1), we get (12-7)/(8-3) = 5/5 = 1.
   
   
 }
