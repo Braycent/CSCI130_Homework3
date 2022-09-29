@@ -3,8 +3,10 @@
 
 #include <iostream>
 #include <cmath>
+#include <iomanip>
 
 using namespace std;
+
 
 int main() {
 
@@ -12,7 +14,7 @@ int main() {
   cout << "Note:\n The coordinates (2,10), (12,6) are formatted (x1,y1), (x2,y2) or (x2,y2), (x1,y1)" << endl;
 
   //establish variables
- double x, y, g, f;
+ double  x, y, g, f;
   x = 2;
   g = 12;
   y = 10;
@@ -20,7 +22,7 @@ int main() {
 
   //calculate slope
   cout << "We will now calculate slope between the two points using the formula: (y2-y1)/(x2-x1)" << endl;
-  cout << " the value of the slope equals " << (f - y)/(g-x);
+  cout << " The value of the slope equals "  << fixed << setw(7) << setprecision(2) << (f - y)/(g-x);
 
   // Part b) I know the value output from the code is true to the actual value of slope because using the formula (y2-y1)/(x2-x1), we get (12-7)/(8-3) = 5/5 = 1.
   
