@@ -11,7 +11,7 @@ using namespace std;
 int main() {
 
   cout << "The formula for calulating slope is \n     (y2 - y1)/(x2 - x1)" << endl;
-  cout << "Note:\n The coordinates (2,10), (12,6) are formatted (x1,y1), (x2,y2) or (x2,y2), (x1,y1)" << endl;
+  cout << "Note:\n The coordinates (2,10), (12,6) are formatted (x1,y1), (x2,y2)" << endl;
 
   //establish variables
  double  x, y, g, f;
@@ -26,5 +26,5 @@ int main() {
 
   // Part b) I know the value output from the code is true to the actual value of slope because using the formula (y2-y1)/(x2-x1), we get (12-7)/(8-3) = 5/5 = 1.
   
-  
+  // d) I would expect a syntax error if a division by zero occured. I am aware of if statements in C++, which can be used to create an alternate response for a scenario like this.This response could be "Attempted to divide by zero" 
 }

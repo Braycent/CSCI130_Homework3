@@ -16,9 +16,9 @@ int main() {
   //establish variables
  double  x, y, g, f;
   x = 2;
-  g = 12;
-  y = 10;
-  f = 6;
+  g = 2;
+  y = 3;
+  f = 4;
 
   //calculate slope
   cout << "We will now calculate slope between the two points using the formula: (y2-y1)/(x2-x1)" << endl;
@@ -26,5 +26,5 @@ int main() {
 
   // Part b) I know the value output from the code is true to the actual value of slope because using the formula (y2-y1)/(x2-x1), we get (12-7)/(8-3) = 5/5 = 1.
   
-  
+  // d) I would expect a syntax error if a division by zero occured. Derivatives can be used here to calculate the slope of the tangent line.
 }
